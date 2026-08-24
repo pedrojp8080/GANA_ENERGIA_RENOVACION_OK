@@ -1,0 +1,724 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1725354575777
+  modified: 1725354575777
+  description: ""
+collection:
+  - name: API
+    meta:
+      id: fld_bcc8fa3fa82943ab88fb8bda0d7d7693
+      created: 1722455807660
+      modified: 1764067448647
+      sortKey: -1722455804654
+      description: ""
+    children:
+      - name: Autenticación
+        meta:
+          id: fld_0aadbc40b52f486aa91e82bb04f38bc4
+          created: 1722455807661
+          modified: 1764067520042
+          sortKey: -1722455804653
+          description: ""
+        children:
+          - name: Negocios
+            meta:
+              id: fld_1129a3722b0649d9b0a6f4577c845c82
+              created: 1722455807663
+              modified: 1722455807663
+              sortKey: -1722455804652
+              description: ""
+          - name: Empleados
+            meta:
+              id: fld_94e05076ac9b479f810186013342b3ed
+              created: 1722455807678
+              modified: 1764067517936
+              sortKey: -1722455804644
+              description: ""
+      - name: Objetos
+        meta:
+          id: fld_8ac5d8fbfbef4f4e930930fe5a40dd55
+          created: 1722455807693
+          modified: 1759440558673
+          sortKey: -1722455804649.25
+          description: ""
+        children:
+          - name: Alergias
+            meta:
+              id: fld_9bf6cd18d6924d31aff79ae9c3dc2048
+              created: 1722455807694
+              modified: 1722455807694
+              sortKey: -1722455804637
+              description: ""
+          - name: Categorias
+            meta:
+              id: fld_7108fc2d07384054804fcd0afb4080db
+              created: 1722455807701
+              modified: 1722455807701
+              sortKey: -1722455804632
+              description: ""
+          - name: Clientes
+            meta:
+              id: fld_4dbeecad0c4c4affb241cda33bed45dc
+              created: 1722455807714
+              modified: 1722455807714
+              sortKey: -1722455804627
+              description: ""
+          - name: Impresoras
+            meta:
+              id: fld_5d7603bfab564d7ebd0c111ff887ac22
+              created: 1722455807725
+              modified: 1764072885862
+              sortKey: -1722455804630.75
+              description: ""
+          - name: Ingredientes
+            meta:
+              id: fld_729fef56de574bc489761deed588cf67
+              created: 1722455807734
+              modified: 1764074536484
+              sortKey: -1722455804629.8125
+              description: ""
+          - name: Mesas
+            meta:
+              id: fld_f848588ae7bb4dcaa66f1070f38317b2
+              created: 1722455807761
+              modified: 1722455807761
+              sortKey: -1722455804607
+              description: ""
+            children:
+              - name: Menus
+                meta:
+                  id: fld_d51595ccc47e4f7385908dc680f5b897
+                  created: 1722455807749
+                  modified: 1764075667420
+                  sortKey: -1722455804706
+                  description: ""
+          - name: Pedidos
+            meta:
+              id: fld_831ade456f5d456bb9e27367e2863a7c
+              created: 1722455807770
+              modified: 1756642870953
+              sortKey: -1722455804602
+              description: ""
+            children:
+              - name: Mesa
+                meta:
+                  id: fld_ae5036512aae4a8cbca878abf14598cd
+                  created: 1722455807773
+                  modified: 1722455807773
+                  sortKey: -1722455804601
+                  description: ""
+              - name: Recoger
+                meta:
+                  id: fld_d963172b3e88485f850b932f23222d8d
+                  created: 1722455807783
+                  modified: 1722455807783
+                  sortKey: -1722455804596
+                  description: ""
+              - name: Domicilio
+                meta:
+                  id: fld_5cc7b330901e418b9afbf74b551eb77e
+                  created: 1722455807794
+                  modified: 1722455807794
+                  sortKey: -1722455804591
+                  description: ""
+          - name: Productos
+            meta:
+              id: fld_557697d9aabd471da73038753b65de55
+              created: 1722455807802
+              modified: 1764072677784
+              sortKey: -1722455804629.5
+              description: ""
+          - name: Reservas
+            meta:
+              id: fld_6f362c20cfd340be83f4340fcf741185
+              created: 1722455807816
+              modified: 1722455807816
+              sortKey: -1722455804581
+              description: ""
+          - name: Salas
+            meta:
+              id: fld_6099242df466460f9d0cde715a4f94c1
+              created: 1722455807829
+              modified: 1764075060141
+              sortKey: -1722455804619.5
+              description: ""
+          - name: Ubicaciones
+            meta:
+              id: fld_16985a3d42924cb7b2afa50b3da6a757
+              created: 1722455807846
+              modified: 1758914406856
+              sortKey: -1722455804578.5
+              description: ""
+          - name: Imagenes
+            meta:
+              id: fld_45bf2753a59b45c78904b95eb2a2edbb
+              created: 1759343649307
+              modified: 1764073949660
+              sortKey: -1722455804630.125
+              description: ""
+          - name: LAST UPDATE
+            meta:
+              id: fld_52c0c639ed63457eb49e5e361eed4909
+              created: 1764070895249
+              modified: 1764070895249
+              sortKey: -1764070895249
+              description: ""
+  - name: Arturo
+    meta:
+      id: fld_ca72488ebf1443778281cfee58b1f60f
+      created: 1773081163736
+      modified: 1773081163736
+      sortKey: -1773081163736
+      description: ""
+    children:
+      - url: https://externos.ganaenergia.com/login
+        name: Login Obtiene Token
+        meta:
+          id: req_623bd1dc61994c659965792f8a3fc53b
+          created: 1773081167122
+          modified: 1773227036301
+          isPrivate: false
+          description: ""
+          sortKey: -1773227010904
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"username": "user4450",
+            	"password" : "PruebasPay26@"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/12.1.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - name: CONTRATOS
+        meta:
+          id: fld_1c2da098e63f4247b351fb87dc964470
+          created: 1773081298970
+          modified: 1773227029319
+          sortKey: -1773081167222
+          description: ""
+        children:
+          - url: https://externos.ganaenergia.com/contract
+            name: Nuevo contrato Luz Particular
+            meta:
+              id: req_7412ebe76b424a638ea4480cf2ef3720
+              created: 1773081318088
+              modified: 1773269931816
+              isPrivate: false
+              description: ""
+              sortKey: -1773081600781
+            method: POST
+            body:
+              mimeType: application/json
+              text: >-
+                {
+                	/*CAMPOS OPCIONALES*/
+                	"bonoSocialAplicable": false,/*opcional*/
+                	"titular_antiguo": true, /*opcional*/
+                	"fecha_tramitacion": "01/01/2020", /*opcional*/
+                	"promocion": "67HQS",/*opcional*/
+                	/*Campos de Gas*/
+                	"gas": 3,/*1-gas natural,2- gas butano, 3- no usa gas*/
+                	"nacionalidad": "NIE_ESCRIBIR Y SI ES CONTRATO DE GAS",
+                	/*BASICOS*/
+                	"origen_contrato": 0
+                  "id_externo": "data",
+                  "suministro_activo": true,
+                	/*TITULAR*/
+                	"titular": {
+                		/*CAMPOS OPCIONALES*/
+                		"razon_social": "",
+                		"contacto_nombre":"",
+                		"contacto_documento":"",
+                		"documento_antiguo":"",/*si cambia de titular*/
+                		"fijo":"",/*telefono fijo*/
+                		/*BASICOS*/
+                    "tipo": 0,/*0-si es particular 1- si es empresa*/
+                    "nombre": "ANA MARIA",
+                    "apellido1": "PAY",
+                    "apellido2": "LUNA",
+                    "documento": "77504220Q",
+                    "fijo": "",
+                    "movil": "654647851",
+                    "prefijo": "34",
+                    "email": "jose.piber@gmail.com",
+                    "cnae": "9820",
+                    "comerciales": false,
+                  },
+                	/*SUMINISTRO*/
+                  "suministro": {
+                		/*CAMPOS OPCIONALES*/
+                		"duplicador": "",
+                		"escalera":"",
+                		"planta":"",
+                		"puerta":"",
+                		"tipo_aclarador":"",/*cuando no hay numero de la vivienda*/
+                		"aclarador":"",
+                		"observaciones":"",
+                    "tipo_via": "CL",
+                    "nombre_via": "FRANCISCO RABAL",
+                    "numero": "8",
+                    "localidad_ine": 600,
+                    "provincia_ine": 30,
+                    "localidad": "ARCHENA",
+                    "provincia": "MURCIA",
+                    "cp": "30600",
+                    "cups": "ES0021000005847734DG",
+                    "tarifa_id": "695389679d3a42b3e194c473",
+                    "tarifa_tipo": "2.0TD",
+                    "atr": 18,
+                    "tarifa_papel": false,
+                    "potencia_contratada_array": ["3.3", "3.3"],
+                    "precio_potencia": "10.94",
+                    "cliente_paga": 2,/*1-no paga cambio de potencia 2-si paga 			cambio de potencia*/
+                    "codigo_cambio": "CZ"
+                  },
+                	/*DATOS BANCARIOS*/
+                  "datos_bancarios": {
+                    "domiciliado": true,
+                    "titular": "ANA MARIA PAY LUNA",
+                    "documento": "77504220Q",
+                    "iban": "ES3821008184091300490814"
+                  }
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+              - name: Authorization
+                value: Bearer {{ _.token }}
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://externos.ganaenergia.com/contract
+            name: Nuevo contrato Luz Empresa
+            meta:
+              id: req_c80b61095d744265b5c10b25d7f640f6
+              created: 1773226934089
+              modified: 1773269955791
+              isPrivate: false
+              description: ""
+              sortKey: -1773081384051.5
+            method: POST
+            body:
+              mimeType: application/json
+              text: >-
+                {
+                	/*CAMPOS OPCIONALES*/
+                	"bonoSocialAplicable": false,/*opcional*/
+                	"titular_antiguo": true, /*opcional*/
+                	"fecha_tramitacion": "01/01/2020", /*opcional*/
+                	"promocion": "67HQS",/*opcional*/
+                	/*Campos de Gas*/
+                	"gas": 3,/*1-gas natural,2- gas butano, 3- no usa gas*/
+                	"nacionalidad": "NIE_ESCRIBIR Y SI ES CONTRATO DE GAS",
+                	/*BASICOS*/
+                	"origen_contrato": 0
+                  "id_externo": "data",
+                  "suministro_activo": true,
+                	/*TITULAR*/
+                	"titular": {
+                		/*CAMPOS OPCIONALES*/
+                		"razon_social": "",
+                		"contacto_nombre":"",
+                		"contacto_documento":"",
+                		"documento_antiguo":"",/*si cambia de titular*/
+                		"fijo":"",/*telefono fijo*/
+                		/*BASICOS*/
+                    "tipo": 0,/*0-si es particular 1- si es empresa*/
+                    "nombre": "ANA MARIA",
+                    "apellido1": "PAY",
+                    "apellido2": "LUNA",
+                    "documento": "77504220Q",
+                    "fijo": "",
+                    "movil": "654647851",
+                    "prefijo": "34",
+                    "email": "jose.piber@gmail.com",
+                    "cnae": "9820",
+                    "comerciales": false,
+                  },
+                	/*SUMINISTRO*/
+                  "suministro": {
+                		/*CAMPOS OPCIONALES*/
+                		"duplicador": "",
+                		"escalera":"",
+                		"planta":"",
+                		"puerta":"",
+                		"tipo_aclarador":"",/*cuando no hay numero de la vivienda*/
+                		"aclarador":"",
+                		"observaciones":"",
+                    "tipo_via": "CL",
+                    "nombre_via": "FRANCISCO RABAL",
+                    "numero": "8",
+                    "localidad_ine": 600,
+                    "provincia_ine": 30,
+                    "localidad": "ARCHENA",
+                    "provincia": "MURCIA",
+                    "cp": "30600",
+                    "cups": "ES0021000005847734DG",
+                    "tarifa_id": "695389679d3a42b3e194c473",
+                    "tarifa_tipo": "2.0TD",
+                    "atr": 18,
+                    "tarifa_papel": false,
+                    "potencia_contratada_array": ["3.3", "3.3"],
+                    "precio_potencia": "10.94",
+                    "cliente_paga": 2,/*1-no paga cambio de potencia 2-si paga 			cambio de potencia*/
+                    "codigo_cambio": "CZ"
+                  },
+                	/*DATOS BANCARIOS*/
+                  "datos_bancarios": {
+                    "domiciliado": true,
+                    "titular": "ANA MARIA PAY LUNA",
+                    "documento": "77504220Q",
+                    "iban": "ES3821008184091300490814"
+                  }
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+              - name: Authorization
+                value: Bearer {{ _.token }}
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://externos.ganaenergia.com/contract
+            name: Nuevo contrato GAS Particular
+            meta:
+              id: req_84eaad1d565448d295d488845d3eb4ba
+              created: 1773226954691
+              modified: 1773269943104
+              isPrivate: false
+              description: ""
+              sortKey: -1773081573689.8125
+            method: POST
+            body:
+              mimeType: application/json
+              text: >-
+                {
+                	/*CAMPOS OPCIONALES*/
+                	"bonoSocialAplicable": false,/*opcional*/
+                	"titular_antiguo": true, /*opcional*/
+                	"fecha_tramitacion": "01/01/2020", /*opcional*/
+                	"promocion": "67HQS",/*opcional*/
+                	/*Campos de Gas*/
+                	"gas": 3,/*1-gas natural,2- gas butano, 3- no usa gas*/
+                	"nacionalidad": "NIE_ESCRIBIR Y SI ES CONTRATO DE GAS",
+                	/*BASICOS*/
+                	"origen_contrato": 1
+                  "id_externo": "data",
+                  "suministro_activo": true,
+                	/*TITULAR*/
+                	"titular": {
+                		/*CAMPOS OPCIONALES*/
+                		"razon_social": "",
+                		"contacto_nombre":"",
+                		"contacto_documento":"",
+                		"documento_antiguo":"",/*si cambia de titular*/
+                		"fijo":"",/*telefono fijo*/
+                		/*BASICOS*/
+                    "tipo": 0,/*0-si es particular 1- si es empresa*/
+                    "nombre": "ANA MARIA",
+                    "apellido1": "PAY",
+                    "apellido2": "LUNA",
+                    "documento": "77504220Q",
+                    "fijo": "",
+                    "movil": "654647851",
+                    "prefijo": "34",
+                    "email": "jose.piber@gmail.com",
+                    "cnae": "9820",
+                    "comerciales": false,
+                  },
+                	/*SUMINISTRO*/
+                  "suministro": {
+                		/*CAMPOS OPCIONALES*/
+                		"duplicador": "",
+                		"escalera":"",
+                		"planta":"",
+                		"puerta":"",
+                		"tipo_aclarador":"",/*cuando no hay numero de la vivienda*/
+                		"aclarador":"",
+                		"observaciones":"",
+                    "tipo_via": "CL",
+                    "nombre_via": "FRANCISCO RABAL",
+                    "numero": "8",
+                    "localidad_ine": 600,
+                    "provincia_ine": 30,
+                    "localidad": "ARCHENA",
+                    "provincia": "MURCIA",
+                    "cp": "30600",
+                    "cups": "ES0021000005847734DG",
+                    "tarifa_id": "695389679d3a42b3e194c473",
+                    "tarifa_tipo": "2.0TD",
+                    "atr": 18,
+                    "tarifa_papel": false,
+                    "potencia_contratada_array": ["3.3", "3.3"],
+                    "precio_potencia": "10.94",
+                    "cliente_paga": 2,/*1-no paga cambio de potencia 2-si paga 			cambio de potencia*/
+                    "codigo_cambio": "CZ"
+                  },
+                	/*DATOS BANCARIOS*/
+                  "datos_bancarios": {
+                    "domiciliado": true,
+                    "titular": "ANA MARIA PAY LUNA",
+                    "documento": "77504220Q",
+                    "iban": "ES3821008184091300490814"
+                  }
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+              - name: Authorization
+                value: Bearer {{ _.token }}
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://externos.ganaenergia.com/contract
+            name: Nuevo contrato Gas Empresa
+            meta:
+              id: req_75b6672a77984e61b7880e07df2f6654
+              created: 1773226971481
+              modified: 1773269949190
+              isPrivate: false
+              description: ""
+              sortKey: -1773081546598.625
+            method: POST
+            body:
+              mimeType: application/json
+              text: >-
+                {
+                	/*CAMPOS OPCIONALES*/
+                	"bonoSocialAplicable": false,/*opcional*/
+                	"titular_antiguo": true, /*opcional*/
+                	"fecha_tramitacion": "01/01/2020", /*opcional*/
+                	"promocion": "67HQS",/*opcional*/
+                	/*Campos de Gas*/
+                	"gas": 3,/*1-gas natural,2- gas butano, 3- no usa gas*/
+                	"nacionalidad": "NIE_ESCRIBIR Y SI ES CONTRATO DE GAS",
+                	/*BASICOS*/
+                	"origen_contrato": 1
+                  "id_externo": "data",
+                  "suministro_activo": true,
+                	/*TITULAR*/
+                	"titular": {
+                		/*CAMPOS OPCIONALES*/
+                		"razon_social": "",
+                		"contacto_nombre":"",
+                		"contacto_documento":"",
+                		"documento_antiguo":"",/*si cambia de titular*/
+                		"fijo":"",/*telefono fijo*/
+                		/*BASICOS*/
+                    "tipo": 0,/*0-si es particular 1- si es empresa*/
+                    "nombre": "ANA MARIA",
+                    "apellido1": "PAY",
+                    "apellido2": "LUNA",
+                    "documento": "77504220Q",
+                    "fijo": "",
+                    "movil": "654647851",
+                    "prefijo": "34",
+                    "email": "jose.piber@gmail.com",
+                    "cnae": "9820",
+                    "comerciales": false,
+                  },
+                	/*SUMINISTRO*/
+                  "suministro": {
+                		/*CAMPOS OPCIONALES*/
+                		"duplicador": "",
+                		"escalera":"",
+                		"planta":"",
+                		"puerta":"",
+                		"tipo_aclarador":"",/*cuando no hay numero de la vivienda*/
+                		"aclarador":"",
+                		"observaciones":"",
+                    "tipo_via": "CL",
+                    "nombre_via": "FRANCISCO RABAL",
+                    "numero": "8",
+                    "localidad_ine": 600,
+                    "provincia_ine": 30,
+                    "localidad": "ARCHENA",
+                    "provincia": "MURCIA",
+                    "cp": "30600",
+                    "cups": "ES0021000005847734DG",
+                    "tarifa_id": "695389679d3a42b3e194c473",
+                    "tarifa_tipo": "2.0TD",
+                    "atr": 18,
+                    "tarifa_papel": false,
+                    "potencia_contratada_array": ["3.3", "3.3"],
+                    "precio_potencia": "10.94",
+                    "cliente_paga": 2,/*1-no paga cambio de potencia 2-si paga 			cambio de potencia*/
+                    "codigo_cambio": "CZ"
+                  },
+                	/*DATOS BANCARIOS*/
+                  "datos_bancarios": {
+                    "domiciliado": true,
+                    "titular": "ANA MARIA PAY LUNA",
+                    "documento": "77504220Q",
+                    "iban": "ES3821008184091300490814"
+                  }
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+              - name: Authorization
+                value: Bearer {{ _.token }}
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: TARIFAS
+        meta:
+          id: fld_1cb44cab84d847f2bdf329b8ed57fd9f
+          created: 1773227010804
+          modified: 1773227010804
+          sortKey: -1773227010804
+          description: ""
+        children:
+          - url: https://externos.ganaenergia.com/tarifas
+            name: tarifas LUZ
+            meta:
+              id: req_2049c9af79cf48c2808451433551a967
+              created: 1773173520703
+              modified: 1773227015140
+              isPrivate: false
+              description: ""
+              sortKey: -1773227015096
+            method: GET
+            body:
+              mimeType: application/json
+              text: ""
+            parameters:
+              - name: tipo
+                value: "0"
+                description: ""
+                disabled: false
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+              - name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDQ2MCwidXNlcm5hbWUiOiJ1c2VyNDQ1MCIsIm5hbWUiOiJBcnRhbGkgRW5lcmd5IFNMIiwicHJpbmNpcGFsIjpudWxsLCJyb2xlIjoxNywiZXh0ZW5zaW9uIjpudWxsLCJkb2N1bWVudG9fZW5fY3QiOnRydWUsImlhdCI6MTc3MzE3MzU3OSwiZXhwIjoxNzczMjE2Nzc5fQ.E6F-lTg-RlhoCeA9M71lgSN-4OEzh0BF5NMzEUWo5BQ
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://externos.ganaenergia.com/tarifas
+            name: tarifas GAS
+            meta:
+              id: req_ac52ad58fa84451fb9132232885ee0cc
+              created: 1773226799305
+              modified: 1773227077580
+              isPrivate: false
+              description: ""
+              sortKey: -1773227015196
+            method: GET
+            body:
+              mimeType: application/json
+              text: ""
+            parameters:
+              - name: tipo
+                value: "1"
+                description: ""
+                disabled: false
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.1.0
+              - name: Authorization
+                value: Bearer
+                  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDQ2MCwidXNlcm5hbWUiOiJ1c2VyNDQ1MCIsIm5hbWUiOiJBcnRhbGkgRW5lcmd5IFNMIiwicHJpbmNpcGFsIjpudWxsLCJyb2xlIjoxNywiZXh0ZW5zaW9uIjpudWxsLCJkb2N1bWVudG9fZW5fY3QiOnRydWUsImlhdCI6MTc3MzE3MzU3OSwiZXhwIjoxNzczMjE2Nzc5fQ.E6F-lTg-RlhoCeA9M71lgSN-4OEzh0BF5NMzEUWo5BQ
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1725354581704
+    modified: 1725354581704
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1725354581658
+    modified: 1764103242422
+    isPrivate: false
+  data:
+    language: es
+    ip: chancho81.tplinkdns.com
+    Datos Conexion PC: ""
+    host: chancho81.tplinkdns.com
+    port: "29001"
+    Login negocio: ""
+    email: pedrojp8080@gmail.com
+    passwordHash: bae0d2db15ed6ef9c2b2a2397738806a02d1e3afef6ac04936acc504c859c7c8
+    LOGIN EMPLEADO: ""
+    usuarioEmpleadoAdmin: Admin
+    pinEmpleadoAdminNegocio: 5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5
+    Datos Registro Negocio: ""
+    telefono: "+34654647859"
+    cif: C36632297
+    direccion: Calle Mayor
+    nombreNegocio: Cuco1
+    codVerificacionMail: "979391"
+    codVerificacionTelefono: "521449"
+    Seguridad Login Negocio: ""
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZUp3RndURU9nQ0FNQmRDNy9Ca0dwQzNDYmJCMFlGRVNOTkVZNys1N0w2NnJOeFFFVFZFQ3NhK3E1TWtzK1MzWDZPdXFqUmNWRlRZNG5NOHdGRXlic3g4N0hPd2VLQ0VKQlpLWStmc0J0QndXL3c9PSIsImlhdCI6MTc2NDEwMzE5NX0.oaraL1nVwmWX7DfoqSGmBWEMEvArInJ-06x55Zq5kMw
+    tokenAdmin: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZUp3RndjRU5nQ0FNQmRCZC9sa09TQ25LelIxY0FFdGppQkU4YUtJeDd1NTdMNjZyWkVSWUNZNHRlWk5FeUpCcU1NdVluRW1EWk44TEMzdEZoL001RkJGVjF5YWxUWGt2ZFc2YlZuVFErMEMwZ2NrU3U5Ri9QOGF0R3NrPSIsImlhdCI6MTc2NDEwMzE5NX0.EDXdSYX-ZDeqYG_91TXQlnqZSwoKp44XvHccGrlpY_A
+    tokenAuth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZUp3RndVRUtnQ0FRQmRDNy9MVXV6SEZNejlFRmJCd29nbktoVUVSMzc3MFhZK3dWR1U2aVowZkJGaEd5cEJydG1vcTNaWllhSm1IaG9ERG9UMU5rbE5HMzVUcjBoSUhlRGRsRkprZnNVL2grNWpnWHJnPT0iLCJpYXQiOjE3NjQxMDMxOTV9.KwZ3mTFrdTVe1qkOkojQqAal1PEqnm10vOa1e9T5UH8
+    uuid: 1c736145-acc4-4ee7-b9a3-a8cd52c6c65e
+    negocioId: 3c840925d2e4a0981c451a731a832b822310869b82b64165e0cf9b1976745cb4
+    Empleado Negocio: ""
+    empleadoId: d51143f33508231b8f3fe1524f7e05f45ef5dff7a48b351b1b3da68f98353082
+    empleadoUUID: 9ab4ede9-6ee6-45ed-bbef-6573ad1c7c67
+    tokenEmpleado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiZUp3Rndic053ekFNQmNCZFdKc0ZMWDRpYlVOUno0QTdGemFRSU1qdXVmdlM4NXlMQmtsRmMxSGpyRkpXSUhqMmJKeXZXcmFYbHh0b28vdHpnUWIxbklxRnpnNDRxMkh4bkRqWUxWb3VxU2dQMmdqdmk0YUVxNmpyN3I4L3VGMGViUT09IiwiaWF0IjoxNzY0MTAzMjI2fQ.HvEHZaY7Ub8q-0wKsnYbBNYuQfjRN6ckqpzR967s7DY

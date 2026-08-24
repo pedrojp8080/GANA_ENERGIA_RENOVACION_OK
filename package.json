@@ -1,0 +1,62 @@
+{
+  "name": "ganaenergia-importador",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "desktop:dev": "concurrently -k \"vite\" \"wait-on tcp:5173 && electron electron/main.js\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dist:mac": "npm run build && electron-builder --mac dmg",
+    "dist:win": "npm run build && electron-builder --win --x64 nsis",
+    "pack:mac": "npm run build && electron-builder --mac --dir",
+    "pack:win": "npm run build && electron-builder --win --x64 --dir"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "electron": "^40.8.0",
+    "electron-builder": "^26.8.1",
+    "vite": "^5.4.10",
+    "wait-on": "^9.0.4"
+  },
+  "build": {
+    "appId": "com.ganaenergia.importador",
+    "productName": "Gana Energia Importador",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.business"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "customNsisBinary": {
+        "url": "https://mirrors.huaweicloud.com/electron-builder-binaries/nsis-3.0.4.1/nsis-3.0.4.1.7z",
+        "checksum": "VKMiizYdmNdJOWpRGz4trl4lD++BvYP2irAXpMilheUP0pc93iKlWAoP843Vlraj8YG19CVn0j+dCo/hURz9+Q==",
+        "version": "3.0.4.1"
+      }
+    }
+  }
+}
